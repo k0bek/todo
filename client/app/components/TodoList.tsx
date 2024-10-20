@@ -116,7 +116,7 @@ const TodoList = () => {
       transition={{ duration: 0.5 }}
       className="w-full flex justify-center items-center flex-col mx-10"
     >
-      <p className="text-3xl sm:text-5xl font-semibold mb-6">
+      <p className="text-3xl sm:text-5xl font-semibold mb-6 text-white">
         Cześć <span className="text-blue-300">{currentUser?.name}</span>!
       </p>
 
